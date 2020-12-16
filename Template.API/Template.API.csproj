@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Template.Extensions\Template.Extensions.csproj" />
+    <ProjectReference Include="..\Template.IService\Template.IService.csproj" />
+    <ProjectReference Include="..\Template.Model\Template.Model.csproj" />
+  </ItemGroup>
+
+
+</Project>
